@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Edit_Activity"
+    >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:id="@+id/profile"/>
+
+        <Button
+            android:id="@+id/change_image"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bouttons"
+            android:onClick="onclick_change"
+            android:text="تغيير الصورة"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/name_photo"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:hint="أدخل النص "
+            android:background="@drawable/txtbox"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        <com.example.ajinhedrou.login.AudioRecordButton
+            android:id="@+id/audio_record_button"
+            android:layout_centerInParent="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+        </com.example.ajinhedrou.login.AudioRecordButton>
+        </RelativeLayout>
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bouttons"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:onClick="onclick_upload"
+        android:text="حفظ التغييرات"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+
+
+
+
+</LinearLayout>

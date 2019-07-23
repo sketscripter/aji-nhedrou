@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B4E55C</color>
+    <color name="colorPrimaryDark">#14ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="secondPage">#14ffffff</color>
+    <color name="text">#ffffff</color>
+    <color name="text_two">#20ffffff</color>
+    <color name="green">#940ce61f</color>
+    <color name="btn">#38D7E7</color>
+    <color name="btn2">#50ffffff</color>
+    <color name="white">#D81B60</color>
+    <color name="gris">#38D7E7</color>
+    <color name="back">#F6F5DF</color>
+    <color name="transparent">#fff</color>
+</resources>

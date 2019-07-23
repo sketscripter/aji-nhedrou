@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajinhedrou.login.login.SignUpFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+           android:layout_marginTop="90dp"
+            android:src="@drawable/mouth" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="35dp"
+            android:text="أجي نهضرو" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editEmailL"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/enter"
+            android:gravity="center_vertical"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:textColor="#000000"
+            android:elevation="2dp"
+            android:textColorHint="#8e000000" />
+
+        <EditText
+            android:id="@+id/editPasswordL"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/enter"
+            android:gravity="center_vertical"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textColorHint="#8e000000" />
+
+        <EditText
+            android:id="@+id/editPasswordconf"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/enter"
+            android:gravity="center_vertical"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:elevation="2dp"
+            android:textColor="#000000"
+            android:textColorHint="#8e000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/enter"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:text=" امرأة "
+                android:textSize="20dp"
+                android:id="@+id/changefemme"
+                android:textAlignment="center"
+                />
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="22dp"
+                android:background="@drawable/enter"
+                android:elevation="10dp"
+                android:gravity="center_vertical"
+                android:id="@+id/changehomme"
+                android:text=" رجل "
+                android:textSize="20dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonRegisterL"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bouttons"
+            android:gravity="center_vertical"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:text="  تسجيل  "
+            android:textSize="30dp"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
